@@ -137,7 +137,7 @@ public class RecipesMmm {
                 }
                 String[] values = line.split(",");
                 System.out.println(values[0] + " " + values[1] + " " + values[2] + " " + values[3]); //Debugging to check si c'est traité
-                String query = "INSERT INTO test VALUES (" + values[0] + ", '" + values[1] + "', '" + values[2] + "', '" + values[3] + "');";
+                String query = "INSERT INTO recipes VALUES (" + values[0] + ", '" + values[1] + "', '" + values[2] + "', '" + values[3] + "');";
 
                 // Execute the query
                 count += statement.executeUpdate(query); //TODO Tentative de compter le nb de lignes exécutées
