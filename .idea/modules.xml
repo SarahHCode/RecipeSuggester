@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testJavaAndSQL.iml" filepath="$PROJECT_DIR$/testJavaAndSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecipeSuggester.iml" filepath="$PROJECT_DIR$/RecipeSuggester.iml" />
     </modules>
   </component>
 </project>
